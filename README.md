@@ -1,6 +1,7 @@
 # Countdown Timer
 
-A simple browser-based countdown timer built with HTML, CSS, and JavaScript. I found an old timer.exe file on a shared drive, and after I reviewed the program, I decided to recreate it as closely to the original as possible. The screenshots below are from the original program.
+A simple browser-based countdown timer built with HTML, CSS, and JavaScript. I found an old timer.exe file on a shared drive, and after I reviewed the program, I decided to recreate it as closely to the original as possible. 
+The screenshots below are from the original program.
 
 ## Features
 
