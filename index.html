@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Timer</title>
+	<link rel="stylesheet" href="timer.css">
+  </head>
+  <body>
+	<div class="countdown-display">
+		<p id="display">00:00:00</p>
+		<button id="stop-btn" class="btn-animations">Stop</button>
+	</div>
+	<div class="about-txt">
+	    <h2>Handy Dandy Countdown Timer.</h2>
+		<p>This program was created using HTML, CSS, & JavaScript. Select a sound to play when the timer ends, or uncheck the box for no sound. Once you have selected a sound, click a time to start the countdown. The outdated appearance is intentional - I found this program (from 2003) burried in a shared drive and decided it would be a good way to test my  abilities on recreating something from visuals and interaction only. Check out the <a href="" class="readme">README on github</a> for images of the original project.</p>
+		<button id="close-btn" class="btn-animations btn-font">Close</button>
+	</div>
+    <div class="container">
+	  <div class="timer-btns">
+	    <button class="btn-animations btn-font timer-btn" id="five" data-minutes="1"><span class="underline">5</span> Minutes</button>
+		<button class="btn-animations btn-font timer-btn" id="ten" data-minutes="10"><span class="underline">1</span>0 Minutes</button>
+		<button class="btn-animations btn-font timer-btn" id="fifteen" data-minutes="15">15 <span class="underline">M</span>inutes</button>
+		<button class="btn-animations btn-font timer-btn" id="thirty" data-minutes="30"><span class="underline">3</span>0 Minutes</button>
+		<button class="btn-animations btn-font timer-btn" id="fourty-five" data-minutes="45"><span class="underline">4</span>5 Minutes</button>
+		<button class="btn-animations btn-font timer-btn" id="sixty" data-minutes="60"><span class="underline">6</span>0 Minutes</button>
+	</div>
+	  <form>
+	    <label for="checkbox" class="sound">
+	    <input id="checkbox" type="checkbox" name="sound" checked>
+		  Use Following Sound Scheme:
+	    </input>
+		</label>
+		<label for="sounds">
+		  <select id="select" name="sounds">
+		    <option id="star" value="star">Star Trek</option>
+			<option id="drums" value="drums">Upbeat drums</option>
+			<option id="magic" value="magic">Magic</option>
+			<option id="ominous" value="rumble">Ominous Rumble</option>
+			<option id="whistle" value="whistle">Slide Whistle</option>
+			<option id="bird" value="bird">Kookabura</option>
+			<option id="alarm" value="alarm">Alarm</option>
+			<option id="phone" value="phone">Ringing Phone</option>
+		  </select>
+		</label>
+		<audio id="star-sound" src="sounds/fx-a-variation-on-a-star-trek-transporter-sound-effect-254098.mp3" preload="auto"></audio>
+		<audio id="drums-sound" src="sounds/deep-house-drums-loop-312200.mp3" preload="auto"></audio>
+		<audio id="magic-sound" src="sounds/magic-ascend-3-259526.mp3" preload="auto"></audio>
+		<audio id="rumble-sound" src="sounds/low-rumble-167812.mp3" preload="auto"></audio>
+		<audio id="whistle-sound" src="sounds/whistle-slide-356040.mp3" preload="auto"></audio>
+		<audio id="bird-sound" src="sounds/queenlandkookaburrra16sec-78948.mp3" preload="auto"></audio>
+		<audio id="alarm-sound" src="sounds/alarm-327234.mp3" preload="auto"></audio>
+		<audio id="phone-sound" src="sounds\phone-ringing-7006.mp3" preload="auto"></audio>
+	  </form>
+	  <div class="end">
+		<div class="end-btns">
+	    <button id="about-btn" class="about btn-animations btn-font">About Timer</button>
+		<button id="exit-btn" class="exit btn-animations btn-font">Exit Program</button>
+		</div>
+	  </div>	
+	</div>
+  <script src="index.js"></script>
+  </body>
