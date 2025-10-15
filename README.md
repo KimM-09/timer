@@ -3,6 +3,15 @@
 A simple browser-based countdown timer built with HTML, CSS, and JavaScript. I found an old timer.exe file on a shared drive, and after I reviewed the program, I decided to recreate it as closely to the original as possible. 
 The screenshots below are from the original program.
 
+## Screenshots of the original program:
+![Screenshot of the original timer.exe program](images/TimerExeOriginal.png)
+![Screenshot of the timers sound selection](images/TimerExeSoundList.png)
+![Screenshot of the original timer.exe countdown](images/TimerExeCountdown.png)
+
+## Screenshots of the recreated program
+![Screenshot of recreation](images/TimerExeRecreation.png)
+![Screenshot of recreation sound selection](images/TimerExeRecreationSoundSelection.png)
+![screenshot of recreation countdown](images/TimerExeRecreationCountdown.png)
 ## Features
 
 - Start, pause, and reset the timer
